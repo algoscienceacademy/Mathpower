@@ -59,7 +59,7 @@ pip install -r requirements.txt
 To start using MathPower, run the main application script:
 
 ```bash
-python main.py
+python power_system_simulator.py
 ```
 
 This will launch the MathPower interface, allowing you to perform various mathematical operations.
@@ -81,7 +81,7 @@ To distribute MathPower as a standalone executable, you can use tools like PyIns
    Navigate to the project directory and run:
 
    ```bash
-   pyinstaller --onefile main.py
+   pyinstaller --onefile power_system_simulator.py
    ```
 
    This will generate a `dist` folder containing the `main.exe` executable.
@@ -103,7 +103,7 @@ To distribute MathPower as a standalone executable, you can use tools like PyIns
        name="MathPower",
        version="1.0",
        description="A comprehensive mathematical tool",
-       executables=[Executable("main.py")]
+       executables=[Executable("power_system_simulator.py")]
    )
    ```
 
